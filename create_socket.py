@@ -8,7 +8,7 @@ def create_server_socket(host, port):
     except:
         print("Error!")
         print("Try again...")
-        # sys.exit(1)
+        sys.exit(1)
     return sender
 
 def create_client_socket(host, port):
@@ -18,5 +18,5 @@ def create_client_socket(host, port):
     except:
         print("Error!")
         print("Try again...")
-        # sys.exit(1)
+        sys.exit(1)
     return s
