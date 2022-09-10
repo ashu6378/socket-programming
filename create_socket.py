@@ -1,6 +1,10 @@
 import socket
 import sys
 
+'''
+Creates the sockets for client and server.
+'''
+
 def create_server_socket(host, port):
     sender = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
